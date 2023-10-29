@@ -1,7 +1,7 @@
 import math as m
 
 def sinc2d(x,y):
-    if x==0 and y==0:
+    if x==0 and y=0:
         return 1.0
     elif x==0:
         return m.sin(y)/y
